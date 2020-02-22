@@ -14,9 +14,6 @@ row_index = 0
  print "#{directors_database[0][:movies][column_index][:title]}\n" 
     row_index += 1
   end
- 
-end
-
 end
 
 

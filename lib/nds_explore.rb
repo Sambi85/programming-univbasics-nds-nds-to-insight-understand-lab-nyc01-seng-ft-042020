@@ -14,7 +14,7 @@ row_index = 0
 while row_index < directors_database.length do
   column_index = 0
   row_index += 1  
-  while column_index < directors_database[0].length do
+  while column_index < directors_database[0][:movies].length do
  print "#{directors_database[0][:movies][column_index][:title]}\n" 
     column_index += 1
   end

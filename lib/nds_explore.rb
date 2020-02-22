@@ -8,10 +8,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-array1 =
+
 row_index = 0
-  while column_index < directors_database[0][:movies].length do
- print "#{directors_database[0][:movies][column_index][:title]}\n" 
+  while row_index < directors_database[0][:movies].length do
+ print "#{directors_database[0][:movies][row_index][:title]}\n" 
     row_index += 1
   end
 end

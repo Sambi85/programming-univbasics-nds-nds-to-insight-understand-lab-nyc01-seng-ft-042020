@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
 array1 =
 row_index = 0
 
-while row_index < directors_database[0].length do
+while row_index < directors_database[0][:movies].length do
   column_index = 0
   row_index += 1  
   while column_index < directors_database[0][:movies].length do
